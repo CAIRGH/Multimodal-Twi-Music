@@ -56,11 +56,11 @@ URL as found in the CSV files.
 2. split music videos.ipynb: The Jupyter notebook here splits the 180 video files into smaller 15
 second chunks of segments. The splitting is done based on the length of the video clip. This
 greatly reduces the size of the files and significantly betters the performance during model
-training and evaluation, [6].
+training and evaluation of machine learning models.
 3. separate audio video.ipynb: This Python script separates the audio modalities of each of the
 video chunck/segment from the video clip.
 4. extract features.ipynb: The Python script used to obtain the different spectral-based acoustic
-features from each segmented audio clip is contained in this Jupyter notebook.
+features from each segmented audio clip is ontained in this Jupyter notebook.
 5. extract video images.ipynb: This Jupyter notebook contains the Python program used to
 generate the frames/images of the different segments of the music videos.
 6. generate graphs.ipynb: This Jupyter notebook contains the Python program used to generate
